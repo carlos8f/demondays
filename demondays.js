@@ -16,7 +16,7 @@ app.configure(function() {
 });
 
 app.get('/', function(req, res) {
-  res.render('index', {title: "Demon Days", body: "test!"});
+  res.render('index', {title: "Demon Days"});
 });
 
 var port = process.argv[2] ? parseInt(process.argv[2]) : 3000;
